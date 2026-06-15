@@ -1,30 +1,37 @@
-# Dependencies
+# ── Dependencies ──────────────────────────────────────────────────────────────
 node_modules/
 .pnp
 .pnp.js
 
-# Build outputs
+# ── Build outputs ─────────────────────────────────────────────────────────────
 dist/
 build/
 server/dist/
 
-# Environment files
+# ── Environment files (contain localhost / secrets — never commit these) ──────
 .env
 .env.local
 .env.*.local
+.env.development
+.env.production
+.env.test
+# .env.example is safe to commit (it's just a template with no real values)
 
-# Logs
+# ── Logs ──────────────────────────────────────────────────────────────────────
 *.log
 npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
 
-# OS / Editor
+# ── OS / Editor ───────────────────────────────────────────────────────────────
 .DS_Store
 Thumbs.db
 .vscode/
 .idea/
 
-# Temp uploads (server)
+# ── Temp uploads (server runtime) ─────────────────────────────────────────────
 /tmp/pdf-studio-uploads/
 
-# TypeScript build info
+# ── TypeScript build info ──────────────────────────────────────────────────────
 *.tsbuildinfo
