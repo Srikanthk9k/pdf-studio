@@ -1,0 +1,19 @@
+services:
+  - type: web
+    name: pdf-studio
+    runtime: docker
+    dockerfilePath: ./Dockerfile
+    plan: free
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: PORT
+        value: 10000
+      - key: JWT_SECRET
+        generateValue: true
+      - key: AUTH_ENABLED
+        value: false
+      - key: CORS_ORIGIN
+        value: https://pdf-studio.onrender.com
+    healthCheckPath: /api/health
+    autoDeploy: true

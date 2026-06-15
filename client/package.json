@@ -1,0 +1,38 @@
+{
+  "name": "pdf-studio-client",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "pdfjs-dist": "^4.0.269",
+    "fabric": "^5.3.0",
+    "zustand": "^4.4.7",
+    "react-dnd": "^16.0.1",
+    "react-dnd-html5-backend": "^16.0.1",
+    "react-hot-toast": "^2.4.1",
+    "pdf-lib": "^1.17.1",
+    "axios": "^1.6.5",
+    "tesseract.js": "^5.0.4",
+    "lucide-react": "^0.309.0",
+    "@fontsource/inter": "^5.0.16",
+    "@fontsource/dancing-script": "^5.0.16"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.2.1",
+    "vite": "^5.0.11",
+    "typescript": "^5.3.3",
+    "@types/react": "^18.2.48",
+    "@types/react-dom": "^18.2.18",
+    "@types/fabric": "^5.3.6",
+    "tailwindcss": "^3.4.1",
+    "postcss": "^8.4.33",
+    "autoprefixer": "^10.4.17"
+  }
+}
