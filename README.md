@@ -67,9 +67,6 @@ npm install
 
 # 3. Start dev servers concurrently (client: 5173, server: 3001)
 npm run dev
-```
-
-Open http://localhost:5173
 
 ---
 
