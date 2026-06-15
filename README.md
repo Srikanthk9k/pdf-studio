@@ -93,7 +93,6 @@ PORT=3001
 NODE_ENV=development
 JWT_SECRET=your-secret-here
 AUTH_ENABLED=false
-CORS_ORIGIN=http://localhost:5173
 ```
 
 ### Client (`/client/.env`)
